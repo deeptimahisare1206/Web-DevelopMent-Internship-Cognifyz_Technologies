@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  line-height: 4rem;
+}
+hr {
+  background-color: black;
+  height: 2px;
+}
+#colorbtn {
+  font-size: larger;
+  font-weight: bolder;
+  height: 5rem;
+  width: 15rem;
+  margin: 3rem;
+}
+.container {
+  display: flex;
+  padding: 2rem;
+}
+#box {
+  height: 10rem;
+  width: 40rem;
+  border: 5px double black;
+}
+
+/* <!-- ==================================================================================================== --> */
+
+#clock {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.greet {
+  font-size: larger;
+  font-weight: bolder;
+  height: 5rem;
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+/* <!-- ==================================================================================================== --> */
+.claci {
+  margin: 1rem 0 5rem 15rem;
+  border: 2px solid black;
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 3rem;
+  background-color: navy;
+}
+#result,
+input {
+  text-align: center;
+  width: 15rem;
+  height: 8rem;
+  border: 2px solid black;
+  font-size: xx-large;
+  background-color: bisque;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus span {
+  position: absolute;
+  height: 1rem;
+  width: 5rem;
+  background-color: white;
+}
+.plus span:nth-child(1) {
+  transform: rotate(90deg);
+}
+.equals {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.equals span {
+  height: 1rem;
+  width: 5rem;
+  background-color: white;
+}

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  line-height: 7rem;
+}
+
+header {
+  height: 100vh;
+  background: url("desktop.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+header h1 {
+  font-size: 4rem;
+  -webkit-text-stroke: 0.09rem black;
+  text-shadow: 5px 5px 4px black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  min-width: 100vw;
+  position: fixed;
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  backdrop-filter: blur(3rem);
+  background-color: rgba(128, 128, 128, 0.4);
+}
+.logo img {
+  width: 17rem;
+}
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+main {
+  padding: 1rem 5rem;
+  line-height: 2rem;
+}
+
+.intro,
+.highlights,
+.qualifications,
+.cta {
+  margin-bottom: 3rem;
+}
+.intro h2,
+.highlights h2,
+.qualifications h2,
+.cta h2 {
+  color: #333;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.cta {
+  width: 100%;
+  background-color: #33333388;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.qualifications {
+  padding-bottom: 2rem;
+  border-bottom: 5px double #333;
+}
+.qualifications ul li {
+  height: 15rem;
+  width: 15rem;
+  margin: 0 2rem 0 0;
+  padding: 2rem;
+  text-align: center;
+  place-items: center;
+  text-wrap: wrap;
+  display: inline-flex;
+  background: #3e87d431;
+  border-radius: 30rem 10rem 30rem 10rem/ 50rem 70rem 50rem 70rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
+}
+table tr td {
+  padding: 5px 0 5px 15px;
+}
+input,
+select {
+  width: 100%;
+  height: 30px;
+}

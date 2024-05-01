@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0.5rem;
+}
+body {
+  text-align: center;
+}
+input[type="radio"] {
+  width: 7rem;
+  height: 7rem;
+  display: block;
+  appearance: none;
+  border: 2px solid navy;
+}
+input[type="radio"]:hover {
+  transform: scale(1.02);
+}
+section {
+  width: 15rem;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.preview {
+position: fixed;
+top: 5rem;
+right: 1rem;
+  border: 2px solid red;
+  width: 75vw;
+  height: 80vh;
+}
+#image-1 {
+  background: url("images/ColorfulHoli_EN-US2354988297_1920x1080.jpg");
+  background-size: cover;
+}
+#image-2 {
+  background: url("images/AntelopeBotswana_EN-US3335739405_1920x1080.jpg");
+  background-size: cover;
+}
+#image-3 {
+  background: url("images/AvilaSpain_EN-US3559491003_1920x1080.jpg");
+  background-size: cover;
+}
+#image-4 {
+  background: url("images/BahamasSpace_EN-US1544254149_1920x1080.jpg");
+  background-size: cover;
+}
+#image-5 {
+  background: url("images/BeaverDenali_EN-US1894047698_1920x1080.jpg");
+  background-size: cover;
+}
+#image-6 {
+  background: url("images/BowlingBallCali_EN-US3241530931_1920x1080.jpg");
+  background-size: cover;
+}
+#image-7 {
+  background: url("images/CadesCove_EN-US4359486356_1920x1080.jpg");
+  background-size: cover;
+}
+#image-8 {
+  background: url("images/DragonWaterfall_EN-US2799967886_1920x1080.jpg");
+  background-size: cover;
+}
+#image-9 {
+  background: url("images/EarthDayTurtle_EN-US4769423754_1920x1080.jpg");
+  background-size: cover;
+}
+#image-10 {
+  background: url("images/HangRaiVietnam_EN-US2418713642_1920x1080.jpg");
+  background-size: cover;
+}
+#image-1:checked ~ .preview {
+  background: url("images/ColorfulHoli_EN-US2354988297_1920x1080.jpg");
+  background-size: cover;
+}
+#image-2:checked ~ .preview {
+  background: url("images/AntelopeBotswana_EN-US3335739405_1920x1080.jpg");
+  background-size: cover;
+}
+#image-3:checked ~ .preview {
+  background: url("images/AvilaSpain_EN-US3559491003_1920x1080.jpg");
+  background-size: cover;
+}
+#image-4:checked ~ .preview {
+  background: url("images/BahamasSpace_EN-US1544254149_1920x1080.jpg");
+  background-size: cover;
+}
+#image-5:checked ~ .preview {
+  background: url("images/BeaverDenali_EN-US1894047698_1920x1080.jpg");
+  background-size: cover;
+}
+#image-6:checked ~ .preview {
+  background: url("images/BowlingBallCali_EN-US3241530931_1920x1080.jpg");
+  background-size: cover;
+}
+#image-7:checked ~ .preview {
+  background: url("images/CadesCove_EN-US4359486356_1920x1080.jpg");
+  background-size: cover;
+}
+#image-8:checked ~ .preview {
+  background: url("images/DragonWaterfall_EN-US2799967886_1920x1080.jpg");
+  background-size: cover;
+}
+#image-9:checked ~ .preview {
+  background: url("images/EarthDayTurtle_EN-US4769423754_1920x1080.jpg");
+  background-size: cover;
+}
+#image-10:checked ~ .preview {
+  background: url("images/HangRaiVietnam_EN-US2418713642_1920x1080.jpg");
+  background-size: cover;
+}

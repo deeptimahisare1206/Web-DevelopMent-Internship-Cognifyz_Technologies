@@ -1,0 +1,135 @@
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        background: linear-gradient(50deg, lightblue, lightskyblue, lightblue);
+        scroll-behavior: smooth;
+      }
+      .header {
+        height: 7vh;
+        background-color: rgba(128, 128, 128, 0.751);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        box-shadow: 7px 7px 5px rgba(63, 63, 63, 0.276);
+      }
+      .logo {
+        flex: 1;
+      }
+      .logo img {
+        width: 30%;
+      }
+      .links {
+        flex: 1;
+        display: flex;
+        gap: 5rem;
+        justify-content: flex-end;
+      }
+      .links a {
+        text-decoration: none;
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+        position: relative;
+      }
+      .links a:after {
+        content: "";
+        border-bottom: 8px solid navy;
+        width: 0;
+        position: absolute;
+        bottom: -0.5rem;
+        border-radius: 10px;
+        right: 0;
+        transition: 0.2s ease;
+      }
+      .links a:hover:after {
+        width: 100%;
+      }
+      #intro {
+        margin: 3rem;
+        display: flex;
+      }
+      .left {
+        flex: 1;
+      }
+      .left img {
+        width: 80%;
+      }
+      .right {
+        flex: 1;
+        line-height: 5rem;
+      }
+      #about {
+        text-align: center;
+        padding: 3rem 5rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+        background-color: rgb(173, 199, 255);
+      }
+
+      #contact {
+        padding-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+      }
+      .box {
+        padding: 3rem;
+        height: 50vh;
+        width: 40vw;
+        background-color: navy;
+        color: white;
+        text-align: center;
+        line-height: 4rem;
+      }
+      input {
+        padding: 0.7rem 2rem;
+      }
+      #btn {
+        width: 10rem;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 2rem;
+        background: linear-gradient(
+          50deg,
+          blue,
+          lightskyblue,
+          rgb(0, 162, 255),
+          blue
+        );
+      }
+      #btn:hover {
+        background: linear-gradient(
+          50deg,
+          orangered,
+          rgb(255, 179, 0),
+          orange,
+          red
+        );
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      @media screen and (max-width: 768px) {
+        
+        .links {
+          justify-content: flex-end;
+          gap: 0.5rem;
+          width: 2rem;
+        }
+        
+        .links a {
+          font-size: large;
+
+        }
+        .logo img{
+          width: 70%;
+        }
+        #intro{
+          flex-direction: column;
+        }
+      }

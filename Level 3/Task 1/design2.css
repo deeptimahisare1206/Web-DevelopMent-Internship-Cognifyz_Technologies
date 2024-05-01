@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(75deg, rgb(102, 217, 255), rgb(79, 187, 255));
+  text-align: center;
+}
+.contain {
+  width: 70vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  border: 10px groove grey;
+  overflow: hidden;
+}
+.slides {
+  width: 80%;
+  display: flex;
+  animation: show 16s infinite ease-in-out;
+}
+.slides img {
+  width: 70vw;
+}
+
+@keyframes show {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-125%);
+  }
+  30% {
+    transform: translateX(-125%);
+  }
+  35% {
+    transform: translateX(-250%);
+  }
+  40% {
+    transform: translateX(-250%);
+  }
+  50% {
+    transform: translateX(-375%);
+  }
+  55% {
+    transform: translateX(-375%);
+  }
+  60% {
+    transform: translateX(-500%);
+  }
+  65% {
+    transform: translateX(-500%);
+  }
+  75% {
+    transform: translateX(-625%);
+  }
+  80% {
+    transform: translateX(-625%);
+  }
+  85% {
+    transform: translateX(-750%);
+  }
+  90% {
+    transform: translateX(-750%);
+  }
+  95% {
+    transform: translateX(-875%);
+  }
+  100% {
+    transform: translateX(-875%);
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 2/ Task 2</title>
+    <link rel="icon" href="Screenshot 2024-04-14 214332.png" />
+    <link rel="stylesheet" href="design.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <div class="hamburger">
+        <ul>
+          <i class="fa fa-times" style="font-size:xx-large;" onclick="hideside()"></i>
+          <li>Home</li>
+          <li>Sale</li>
+          <li>Menu</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showSide()"></i>
+    </nav>
+
+    <header>
+      <div class="h1">
+        <img src="hero_image.png" alt="bowl" />
+      </div>
+      <div class="content1">
+        <span class="sale">50% OFF on All Product</span>
+        <br /><br />
+        <h1>Enjoy Your <br />Delicious Food</h1>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          laudantium.
+        </p>
+        <br />
+        <button><b> Explore Now</b></button>
+      </div>
+    </header>
+
+    <div class="cardboard">
+      <div class="card1">
+        <div class="icon1"><img src="discount.png" alt="" /></div>
+        <div class="text">
+          <h3>Discount Voucher</h3>
+          <p>Lorem ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="card1">
+        <div class="icon1"><img src="fresh.png" alt="" /></div>
+        <div class="text">
+          <h3>Fresh Healthy Food</h3>
+          <p>Lorem ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="card1">
+        <div class="icon1"><img src="delivery.png" alt="" /></div>
+        <div class="text">
+          <h3>Fast Home delivery</h3>
+          <p>Lorem ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <span style="background-color: green; color: white; padding: 10px"
+        >Our Menu</span
+      >
+      <h2>Explore Our menu</h2>
+      <div class="album">
+        <div class="img1">
+          <img src="grid_image1.png" class="grid-image" alt="" />
+        </div>
+        <div class="img2">
+          <img src="grid_image2.png" class="grid-image" alt="" />
+        </div>
+        <div class="img3">
+          <img src="grid_image3.png" class="grid-image" alt="" />
+        </div>
+        <div class="img4">
+          <img src="grid_image4.png" class="grid-image" alt="" />
+        </div>
+        <div class="img5">
+          <img src="grid_image5.png" class="grid-image" alt="" />
+        </div>
+        <div class="img6">
+          <img src="grid_image6.png" class="grid-image" alt="" />
+        </div>
+        <div class="img7">
+          <img src="grid_image7.png" class="grid-image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <div class="links">
+        <h5>Main Links</h5>
+        <li><a href="">Order Tracking</a></li>
+        <li><a href="">New Order</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">News & Blogs</a></li>
+      </div>
+      <div class="supp">
+        <h5>Support</h5>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms & Conditions</a></li>
+      </div>
+      <div class="icons">
+        <h5>Follow Us</h5>
+        <i class="fa fa-facebook" style="font-size: 3rem"></i>
+        <i class="fa fa-twitter" style="font-size: 3rem"></i>
+        <i class="fa fa-instagram" style="font-size: 3rem"></i>
+        <i class="fa fa-whatsapp" style="font-size: 3rem"></i>
+      </div>
+    </footer>
+    <script>
+        function showSide(){
+            const sidebar=document.querySelector('.hamburger');
+            sidebar.style.display='flex';
+        }
+         function hideside(){
+            const sidebar=document.querySelector('.hamburger');
+            sidebar.style.display='none';
+        }
+      </script>
+  </body>
+</html>
